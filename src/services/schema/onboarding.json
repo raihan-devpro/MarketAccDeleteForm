@@ -1,0 +1,243 @@
+{
+    "onboarding_id": "8aea2a19-d18b-4500-b76e-336a249c1473",
+    "steps": {
+        "initialize": {
+            "user_item": {
+                "company_id": "8aea2a19-d18b-4500-b76e-336a249c1473",
+                "updated_at": "2024-11-25T09:06:22Z",
+                "user_id": "92357454-5011-7002-b6a6-a66a05e27416",
+                "phone": "+12345",
+                "last_name": "Chowdhury",
+                "created_at": "2024-11-25T09:06:22Z",
+                "first_name": "Raihan",
+                "email": "chowdhuryh.r@benchbee.io"
+            },
+            "completed_at": "2024-11-25T09:06:22Z",
+            "company_item": {
+                "created_at": "2024-11-25T09:06:22Z",
+                "company_id": "8aea2a19-d18b-4500-b76e-336a249c1473",
+                "admin_user_id": "92357454-5011-7002-b6a6-a66a05e27416",
+                "updated_at": "2024-11-25T09:06:22Z",
+                "phone": "+12345",
+                "email": "chowdhuryh.r@benchbee.io"
+            },
+            "status": "completed"
+        },
+        "update_company_profile": {
+            "completed_at": "2024-11-25T09:07:47Z",
+            "company_data": {
+                "company_id": "8aea2a19-d18b-4500-b76e-336a249c1473",
+                "admin_user_id": "92357454-5011-7002-b6a6-a66a05e27416",
+                "directors": [
+                    {
+                        "name": "NOVSARKA, Huzefah Sirajali",
+                        "occupation": "Director",
+                        "nationality": "British",
+                        "country_of_residence": "United Kingdom",
+                        "is_user": false,
+                        "date_of_birth": {
+                            "month": 4.0,
+                            "year": 1983.0
+                        }
+                    },
+                    {
+                        "name": "SAMA, Rizwaan Ahamed Harun",
+                        "occupation": "Director",
+                        "nationality": "British",
+                        "country_of_residence": "England",
+                        "is_user": false,
+                        "date_of_birth": {
+                            "month": 2.0,
+                            "year": 1990.0
+                        }
+                    },
+                    {
+                        "name": "AHMED, Amran",
+                        "occupation": "Director",
+                        "nationality": "British",
+                        "country_of_residence": "England",
+                        "is_user": false,
+                        "date_of_birth": {
+                            "month": 2.0,
+                            "year": 1990.0
+                        }
+                    }
+                ],
+                "created_at": "2024-11-25T09:06:22Z",
+                "sic_codes": [
+                    "62020",
+                    "82990"
+                ],
+                "updated_at": "2024-11-25T09:07:47Z",
+                "company_registration_number": "13935703",
+                "phone": "+12345",
+                "company_name": "DATA PULSE ACH LTD",
+                "date_of_creation": "2022-02-23",
+                "registered_office_address": {
+                    "address_line_1": "22 Villiers Gardens",
+                    "locality": "London",
+                    "country": "England",
+                    "postal_code": "E20 1GW"
+                },
+                "company_status": "active",
+                "email": "chowdhuryh.r@benchbee.io",
+                "stripe": {
+                    "stripe_customer_id": "cus_RHXLPkZdNTIxZT",
+                    "client_secret": "pi_3QOyHA2NCALi4uIe1e9iy8NH_secret_15hN2XRV3T1z8OjuvrWKLkq5R"
+                }
+            },
+            "status": "completed"
+        },
+        "verify_company": {
+            "verify_company": {
+                "sic_codes": [
+                    "62020",
+                    "82990"
+                ],
+                "company_number": "13935703",
+                "persons_with_significant_control": [
+                    {
+                        "name": "Mr Amran Ahmed",
+                        "natures_of_control": [
+                            "ownership-of-shares-25-to-50-percent"
+                        ],
+                        "nationality": "British",
+                        "country_of_residence": "United Kingdom",
+                        "date_of_birth": {
+                            "month": 2.0,
+                            "year": 1990.0
+                        }
+                    },
+                    {
+                        "name": "Mr Rizwaan Ahamed Harun Sama",
+                        "natures_of_control": [
+                            "ownership-of-shares-25-to-50-percent"
+                        ],
+                        "nationality": "British",
+                        "country_of_residence": "England",
+                        "date_of_birth": {
+                            "month": 2.0,
+                            "year": 1990.0
+                        }
+                    },
+                    {
+                        "name": "Mr Huzefah Sirajali Novsarka",
+                        "natures_of_control": [
+                            "ownership-of-shares-25-to-50-percent"
+                        ],
+                        "nationality": "British",
+                        "country_of_residence": "United Kingdom",
+                        "date_of_birth": {
+                            "month": 4.0,
+                            "year": 1983.0
+                        }
+                    }
+                ],
+                "company_name": "DATA PULSE ACH LTD",
+                "directors": [
+                    {
+                        "name": "NOVSARKA, Huzefah Sirajali",
+                        "occupation": "Director",
+                        "nationality": "British",
+                        "country_of_residence": "United Kingdom",
+                        "date_of_birth": {
+                            "month": 4.0,
+                            "year": 1983.0
+                        }
+                    },
+                    {
+                        "name": "SAMA, Rizwaan Ahamed Harun",
+                        "occupation": "Director",
+                        "nationality": "British",
+                        "country_of_residence": "England",
+                        "date_of_birth": {
+                            "month": 2.0,
+                            "year": 1990.0
+                        }
+                    },
+                    {
+                        "name": "AHMED, Amran",
+                        "occupation": "Director",
+                        "nationality": "British",
+                        "country_of_residence": "England",
+                        "date_of_birth": {
+                            "month": 2.0,
+                            "year": 1990.0
+                        }
+                    }
+                ],
+                "date_of_creation": "2022-02-23",
+                "registered_office_address": {
+                    "address_line_1": "22 Villiers Gardens",
+                    "locality": "London",
+                    "country": "England",
+                    "postal_code": "E20 1GW"
+                },
+                "company_status": "active"
+            },
+            "completed_at": "2024-11-25T09:06:59Z",
+            "status": "completed"
+        },
+        "payment": {
+            "status": "completed",
+            "completed_at": "2024-11-25T09:08:06Z",
+            "stripe_customer_id": "cus_RHXLPkZdNTIxZT",
+            "client_secret": "pi_3QOyHA2NCALi4uIe1e9iy8NH_secret_15hN2XRV3T1z8OjuvrWKLkq5R"
+        }
+    },
+    "master": {
+        "completed_steps": [
+            "initialize",
+            "verify_company",
+            "update_company_profile",
+            "payment"
+        ],
+        "progress": 1.0,
+        "total_steps": 5.0,
+        "log": [
+            {
+                "timestamp": "2024-11-25T09:06:22Z",
+                "written": [
+                    {
+                        "item": "company_item"
+                    },
+                    {
+                        "item": "user_item"
+                    },
+                    {
+                        "item": "initialize"
+                    }
+                ]
+            },
+            {
+                "timestamp": "2024-11-25T09:06:59Z",
+                "written": [
+                    {
+                        "item": "verify_company"
+                    }
+                ]
+            },
+            {
+                "timestamp": "2024-11-25T09:07:47Z",
+                "written": [
+                    {
+                        "item": "update_company_profile"
+                    }
+                ],
+                "deleted": []
+            },
+            {
+                "timestamp": "2024-11-25T09:08:06Z",
+                "written": [
+                    {
+                        "item": "payment",
+                        "timestamp": "2024-11-25T09:08:06Z"
+                    }
+                ],
+                "deleted": []
+            }
+        ],
+        "current_step": "setup_direct_debit",
+        "status": "in_progress"
+    }
+}

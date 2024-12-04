@@ -1,0 +1,38 @@
+{
+    "id": "pi_3QQaFX2NCALi4uIe1EkkdqiE",
+    "object": "payment_intent",
+    "amount": 35000,
+    "amount_details": {
+        "tip": {}
+    },
+    "automatic_payment_methods": {
+        "allow_redirects": "always",
+        "enabled": true
+    },
+    "canceled_at": null,
+    "cancellation_reason": null,
+    "capture_method": "automatic_async",
+    "client_secret": "pi_3QQaFX2NCALi4uIe1EkkdqiE_secret_swcdmccVcTJFSbMabxXNmnjYX",
+    "confirmation_method": "automatic",
+    "created": 1732909991,
+    "currency": "gbp",
+    "description": null,
+    "last_payment_error": null,
+    "livemode": false,
+    "next_action": null,
+    "payment_method": "pm_1QQaJP2NCALi4uIe1O0tmZnT",
+    "payment_method_configuration_details": {
+        "id": "pmc_1QNcil2NCALi4uIe0B0igWwk",
+        "parent": null
+    },
+    "payment_method_types": [
+        "card",
+        "link"
+    ],
+    "processing": null,
+    "receipt_email": null,
+    "setup_future_usage": "off_session",
+    "shipping": null,
+    "source": null,
+    "status": "succeeded"
+}
