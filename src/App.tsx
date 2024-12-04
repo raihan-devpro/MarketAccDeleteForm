@@ -3,13 +3,13 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { ThemeProvider } from "next-themes";
 
 import { Toaster } from "@/components/ui/sonner";
-import MarketAccountDeletionForm from "./app/pages/MarketDeleteForm";
+import JrjAccountDeletionForm from "./app/pages/MarketDeleteForm";
 
 function App() {
   const router = createBrowserRouter([
     {
-      path: "/market",
-      element: <MarketAccountDeletionForm />,
+      path: "/jrj",
+      element: <JrjAccountDeletionForm />,
     },
   ]);
 

@@ -11,9 +11,10 @@ import {
   CardFooter,
 } from "@/components/ui/card";
 import { toast } from "sonner";
+import axios from "axios";
 
-export default function MarketAccountDeletionForm() {
-  const [email, setEmail] = useState("");
+export default function JrjAccountDeletionForm() {
+  const [number, setNumber] = useState("");
   const [reason, setReason] = useState("");
   const [confirm, setConfirm] = useState(false);
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -31,11 +32,27 @@ export default function MarketAccountDeletionForm() {
     setIsSubmitting(true);
 
     // Simulate API call
-    toast.success(
-      `Your account deletion request for ${email} has been received.`,
-    );
+    try {
+      const response = await axios.post(
+        "https://jrj.mahtabgroup.com/items/delete_request",
+        {
+          number,
+          reason,
+        },
+      );
+      console.log("Account deletion request submitted:", response.data);
+      toast.success(
+        `Your account deletion request for ${number} has been received.`,
+      );
+    } catch (error) {
+      console.error("Error submitting deletion request:", error);
+      toast.error("Failed to submit deletion request.");
+      setIsSubmitting(false);
+      return;
+    }
+
     setIsSubmitting(false);
-    setEmail("");
+    setNumber("");
     setReason("");
     setConfirm(false);
   };
@@ -45,24 +62,24 @@ export default function MarketAccountDeletionForm() {
       <Card className="w-full max-w-lg p-4 shadow-lg">
         <CardHeader>
           <CardTitle className="text-center text-lg font-bold">
-            Account Deletion Request
+            JRJ User Account Deletion Request
           </CardTitle>
         </CardHeader>
         <CardContent>
           <form onSubmit={handleSubmit} className="space-y-4">
             <div className="space-y-2">
               <label
-                htmlFor="email"
+                htmlFor="number"
                 className="block text-sm font-medium text-gray-700"
               >
-                Email Address
+                Mobile Number
               </label>
               <Input
-                id="email"
-                type="email"
-                placeholder="Enter your email"
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
+                id="number"
+                type="text"
+                placeholder="Enter your mobile number"
+                value={number}
+                onChange={(e) => setNumber(e.target.value)}
                 required
               />
             </div>
