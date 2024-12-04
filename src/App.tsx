@@ -4,12 +4,17 @@ import { ThemeProvider } from "next-themes";
 
 import { Toaster } from "@/components/ui/sonner";
 import JrjAccountDeletionForm from "./app/pages/MarketDeleteForm";
+import ErrorPage from "./ErrorPage";
 
 function App() {
   const router = createBrowserRouter([
     {
       path: "/jrj",
       element: <JrjAccountDeletionForm />,
+    },
+    {
+      path: "*", // Catch-all route for unmatched paths
+      element: <ErrorPage />,
     },
   ]);
 
